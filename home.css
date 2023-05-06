@@ -53,4 +53,10 @@ body {
   width: 100%;
   position: 50%;
 }
+.nav-button {
+  background-color: lightgray;
+  padding-top: 10%;
+  padding-left: 10%;
+  
+}
   
