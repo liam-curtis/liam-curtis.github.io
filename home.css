@@ -48,6 +48,8 @@ body {
   }
 
 .navigation-bar {
-
+  background-color: dimgray;
+  height:20%;
+  width: 100%;
 }
   
