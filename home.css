@@ -46,13 +46,8 @@ body {
   .col-sm-2 {
     background-color: #ffffff;
   }
-  @media only screen and (max-width: 600px) {
-    .sidebar {
-      display: none;
-    }
-    
-    .content {
-      margin-left: 0;
-    }
-  }
+
+.navigation-bar {
+
+}
   
