@@ -6,10 +6,10 @@ img {
   }
 
 h1 {
-  background-color: slategrey;
+  background-color: white;
 }
 body {
-  background-color: slategrey;
+  background-color: white;
 }
 
 
@@ -47,15 +47,61 @@ body {
     background-color: #ffffff;
   }
 
+/* Navigation bar styling */
+/*left side of search bar*/
 .navigation-bar {
-  background-color: dimgray;
-  margin: auto;
-  margin: 10px;
-
+  position: fixed;
+  background-color: white;
+  border-bottom: 5px solid purple;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  top: 0%;
+  left: 0%;
 }
+/*right side of search bar*/
+.navigation-socials {
+  position: fixed;
+  background-color: white;
+  border-bottom: 5px solid purple;
+  padding: 7px;
+  margin-left: auto; 
+  margin-right: 0;
+  width: 100%;
+  top: 0%;
+  left: 85%;
+}
+/* links to other parts of the site*/
 .nav-button {
-  background-color: lightgray;
-  margin: 10px;
-  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif; 
+  background-color: white;
+  border-radius: 3px;
+  padding: 6px;
+  margin-right:3%;
+  text-decoration:none;
+  color: purple;
+}
+/*change color to black on hover*/
+.nav-button:hover {
+  color:black;
+}
+
+/* links to other sites (in images)*/
+.nav-image {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif; 
+  background-color: white;
+  border-radius: 3px;
+  padding: 3.5px;
+  text-decoration:none;
+  border: none;
+  color: black;
+  height: 25px;
+  width: auto;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+  justify-content: left;
 }
   
