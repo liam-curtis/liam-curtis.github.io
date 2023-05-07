@@ -1,33 +1,9 @@
-
-/* The sidebar menu */
-.sidebar {
-    width: 16%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    top: 0%; /* Stay at the top */
-    left: 0;
-    background-color: #ffffff; 
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 0px;
-    padding-bottom: 5%;
-    
-  }
-  .sidebar a {
-    padding: 10% 10% 1% 30%;
-    text-decoration: j;
-    font-size: 120%;
-    color: #000000;
-    display: block;
-    white-space: nowrap;
-  }
-
-  .title {
-    padding: 10% 10% 1%;
-    text-decoration: honeydew;
-    font-size: 130%;
-    color: #000000;
-    display: block;
-    white-space: nowrap;
-  }
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+}
 
 /* Navigation bar styling */
 /*left side of search bar*/
@@ -106,14 +82,19 @@
 /*styling initial blurb*/
 .opener-container {
   position:relative;
-  height: 100%;
-  width: 80%;
-  top:20%;
-  left:0;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 60vw;
+  width: 80vw;
+  top:35%;
+  left:10%;
+  background-color: darkgray;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 .midground-image {
   position: relative;
-  margin: 10% 10% 10% 10%;
+  margin: 0;
   background-color: darkgrey;
   padding:0;
   height: 100%;
@@ -172,16 +153,78 @@
   background-color: rgb(87, 85, 85);
 }
 
-
-
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+/*Style the Additional Slides*/
+.opener-container-2 {
+  position:relative;
+  display:flex;
+  margin-top: 20px;
+  height: 40vw;
+  width: 80vw;
+  top:35%;
+  left:10%;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
-
-
-
+.photo-container {
+  background: blue;
+  position: relative;
+  width: 48%;
+  height:100%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius:15px;
+}
+.text-container {
+  border-radius: 5px;
+  position: relative;
+  width: 48%;
+  height:100%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.slide-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+  font-style:italic;
+  position: absolute;
+  top:20%;
+  left:30%;
+  padding:5px;
+  border-radius:5px;
+  background-color: #4a1568a4;
+  color: white;
+  font-size:2vw;
+}
+.slide-photo {
+  height:100%;
+  width:100%;
+  border-radius:15px;
+}
+.slide-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+  font-size: 1.75vw;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.slide-button {
+  font-style: italic ;
+  padding: 5%;
+  font-size: 1.5vw;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  color: rgb(87, 85, 85);
+  background-color: rgb(224, 217, 217);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+  border: 3px solid rgb(87, 85, 85);
+  border-radius: 7px;
+}
+.slide-button:hover {
+  color: rgb(224, 217, 217);
+  background-color: rgb(87, 85, 85);
+}
 
 
 
