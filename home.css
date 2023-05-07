@@ -64,7 +64,6 @@ body {
 .navigation-socials {
   position: fixed;
   background-color: white;
-  border-bottom: 5px solid purple;
   padding: 7px;
   margin-left: auto; 
   margin-right: 0;
@@ -86,22 +85,38 @@ body {
 .nav-button:hover {
   color:black;
 }
-
 /* links to other sites (in images)*/
 .nav-image {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif; 
   background-color: white;
-  border-radius: 3px;
   padding: 3.5px;
-  text-decoration:none;
-  border: none;
-  color: black;
+  padding-right: 15px;
   height: 25px;
   width: auto;
 }
-
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
   justify-content: left;
 }
+
+/*Footer Styling*/
+.footer {
+  background-color: rgb(155, 41, 155);
+  height: 80px;
+  margin-top: auto;
+}
+.footer-sig {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+  color: rgb(233, 224, 224);
+  background-color: rgb(155, 41, 155);
+  padding-left: 15%;
+  padding:1.5%;
+  margin: 0;
   
+}
+
+body {
+  margin: 0;
+}
+
+
